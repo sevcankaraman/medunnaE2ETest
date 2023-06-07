@@ -2,5 +2,5 @@
 Feature: Get and Validate Room
 
   Scenario: Get Request and Assert
-    Given send get request
+    Given send get request to url
     Then validate body
